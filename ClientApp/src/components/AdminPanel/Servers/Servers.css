@@ -1,0 +1,8 @@
+.admin-panel {
+    display: flex;
+    justify-content: center;
+}
+
+.admin-panel__server-content {
+    color: white;
+}

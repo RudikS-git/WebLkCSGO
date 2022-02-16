@@ -1,0 +1,109 @@
+.news-block {
+    display: flex;
+    flex-flow: row wrap;
+    max-height: 800px;
+}
+
+.news-block__text {
+    color: white;
+    font-size: 25px;
+}
+
+.news-block__button {
+    order: 999;
+    margin-left: auto;
+    margin-top: auto;
+
+    background-color: #444343;
+    color: white;
+
+    border: 0;
+    border-radius: 5px;
+
+    width: 95px;
+    height: 45px;
+
+    flex-grow: 0;
+}
+
+.news-block__button:hover {
+    background-color: #333333;
+}
+
+.news-block__button:focus {
+    outline: none;
+}
+
+.news-block__slider{
+    width: 100%;
+}
+
+.slider__img{
+    z-index: -1;
+    width: calc(100%);
+}
+
+.slider__slide{
+    width: 100%;
+}
+
+.slick-list{
+    width: calc(100% + 50px) ; 
+    right: 25px;
+    z-index: 0;
+}
+
+.slick-arrow{
+    z-index: 1;
+}
+
+.slick-arrow::before{
+font-size: 40px;
+}
+
+.slick-prev{
+    left:-15px
+}
+
+.slick-next{
+    right:5px
+}
+
+.slick-dots{
+   bottom: 15px;
+}
+
+.slick-dots li button:before {
+   opacity: 0.4;
+   color: white;
+}
+
+.slick-dots li.slick-active button:before {
+   opacity: 1;
+   color: white;
+}
+
+.awssld__controls__arrow-left:before, .awssld__controls__arrow-left:after, .awssld__controls__arrow-right:before, .awssld__controls__arrow-right:after{
+    background-color:#fff !important;
+}
+
+.awssld{
+    max-height: 600px;
+    --loader-bar-color: rgb(62, 112, 248) !important;
+}
+
+.awssld__bullets {
+    bottom: 15px !important;
+    z-index: 9;
+}
+
+
+.awssld__bullets button{
+    background-color: #fff !important;
+    width: 9px !important;
+    height: 9px !important;
+}
+
+.awssld__content > img {
+    
+}

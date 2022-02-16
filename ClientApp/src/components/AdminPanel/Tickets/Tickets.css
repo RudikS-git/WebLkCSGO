@@ -1,0 +1,96 @@
+.tickets {
+    width: 100%;
+    color: #a2a2a2;
+}
+
+.tickets__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.tickets__info {
+    background-color: #1c1b1b;
+    padding: 25px;
+}
+
+.tickets__header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #696763;
+    padding: 5px;
+    background-color: #1c1b1b;
+}
+
+.tickets__header-main {
+    display: flex;
+}
+
+.tickets__header-text {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.tickets__btn {
+    background-color: #282829;
+    border: 1px solid #696763;
+    color: #dcd6d6;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.tickets__btn-take, .tickets__btn-busy, .tickets__btn-closed  {
+    font-size: 0.9rem;
+    padding: 2px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.tickets__btn-take {
+    background-color: rgb(38, 38, 38);
+    color: #2ca44a;
+}
+
+.tickets__btn-busy {
+
+    background-color: rgb(38, 38, 38);
+    color: #b3b164;
+}
+
+.tickets__btn-closed  {
+    background-color: rgb(38, 38, 38);
+    color: #a26464;
+}
+
+.tickets__report {
+    background-color: #242424;
+    padding: 25px;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px;
+}
+
+.tickets__report-actions {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #242424;
+    padding: 25px;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px;
+}
+
+.tickets__data-table {
+    border-bottom: solid 1px #424242;
+}
+
+.tickets__manage {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 1025px){
+   .tickets__data-table_type_mobile{
+      display: none;
+   }
+}

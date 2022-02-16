@@ -1,0 +1,27 @@
+.article__header {
+    text-align: center;
+    padding: 15px;
+}
+
+.article__header_text {
+    font-size: 1.5rem;
+}
+
+.article__body {
+    padding: 0 50px 50px 50px;
+    color: #9e9e9e;
+}
+
+.article__body_text-bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.article__section_header {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.article__section_body {
+    padding: 5px;
+}

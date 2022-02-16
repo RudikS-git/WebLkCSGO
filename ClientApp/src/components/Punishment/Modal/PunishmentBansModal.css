@@ -1,0 +1,51 @@
+.punishmentBansModal {
+    margin-left: 10%;
+}
+
+.adminModal_textInput {
+    display: inline-block;
+    border: 0;
+    border-color: #242424;
+    background-color: #242424;
+    height: auto;
+    padding-right: 20px;
+
+    color: white;
+    /* margin-right: 50px;
+    margin-left: 30px; */
+}
+
+.adminModal_strokeBacklight {
+    height: 2px;
+}
+
+.adminModal_textInput:focus + .adminModal_strokeBacklight{
+    background: linear-gradient(to right, #00835c, #00ff37a4);
+}
+
+.adminModal_infoBlock {
+    display:inline-block;
+    margin-left: 50px;
+}
+.adminModal_textLine {
+
+    width: 100px;
+}
+
+.adminModal_block {
+    height: auto;
+    display: inline-block;
+    padding: 5px;
+}
+
+.bansmodal_optionOff {
+    text-align: center;
+    margin-left: 30px;
+    border-color: rgb(151, 145, 145);
+    border-width: 15px;
+    background-color: rgb(34, 34, 34);
+}
+
+.bansmodal_option :hover {
+    background-color: #727272;
+}

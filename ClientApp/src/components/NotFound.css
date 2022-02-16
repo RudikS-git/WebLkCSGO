@@ -1,0 +1,22 @@
+.notfound {
+   display: flex;
+   color: rgb(155, 155, 155);
+   font-size: 25px;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+.notfound-content {
+   border: 1px solid #262626;
+   padding: 25px;
+}
+
+.notfound__text {
+   margin-left: 5px;
+}
+
+.notfound__text-additional {
+   font-size: 0.7em;
+   text-align: center;
+}

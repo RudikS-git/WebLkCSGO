@@ -1,0 +1,59 @@
+.modal-overlay {
+    background-color: rgba(5, 5, 5, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+.modal-overlay__window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #242424;
+  min-height: 200px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+
+  border-radius: 10px;
+}
+
+.modal-overlay__header, .modal-overlay__body, .modal-overlay__footer {
+  color: #a1a8ac;
+}
+
+.modal-overlay__header {
+  min-height: 60px;
+  height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.modal-overlay__footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.modal-overlay__footer button:last-child {
+  margin-left: 10px;
+}
+
+.modal-overlay__btn-cancel {
+  float: left;
+  padding: 10px;
+}
+
+.modal-overlay__btn-edit {
+  float: right;
+  padding: 10px;
+}

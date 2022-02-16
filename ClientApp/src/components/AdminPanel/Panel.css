@@ -1,0 +1,38 @@
+.admin-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    
+    height: 100%;
+}
+
+.admin-panel__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+
+    padding: 50px;
+}
+
+.admin-panel__component {
+    color: #959595;
+    border: 1px solid rgb(146, 145, 145);
+    border-radius: 6px;
+    margin: 5px;
+    padding: 15px;
+
+    text-align: center;
+    width: 250px;
+}
+
+.admin-panel__component:hover {
+    border-color: rgb(6, 119, 248);
+    color: rgb(6, 119, 248);
+}
+
+.admin-panel__text {
+    color: white;
+}

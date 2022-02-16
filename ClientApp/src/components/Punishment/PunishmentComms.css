@@ -1,0 +1,65 @@
+.punishments-comms__table
+{
+    display: grid;
+    display: -moz-grid;
+    flex: 1;
+    border-collapse: collapse;
+    border-color: #333 !important;
+
+     grid-template-columns: 
+        minmax(50px, 0.5fr) 
+        minmax(50px, 1.33fr) 
+        minmax(50px, 1.33fr) 
+        minmax(50px, 1.33fr)
+        minmax(50px, 1.33fr)
+        minmax(50px, 1.33fr);
+        /* grid-template-columns: 
+    minmax(150px, 1fr)
+    minmax(150px, 1.67fr)
+    minmax(150px, 3.33fr)
+    minmax(150px, 1.67fr)
+    minmax(150px, 1.67fr); */
+
+    max-width: 100%;
+    width: 100%;
+
+    font-family: 'Roboto', sans-serif;
+
+    color:white;
+    /* border-right: 1px groove rgb(153, 153, 153);
+    border-left: 1px groove rgb(153, 153, 153);
+    border-width: 1px;
+    border-radius: 4px;  */
+}
+
+.punishments-comms__td-collapse {
+    grid-column: 1 / span 6;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 250px;
+}
+
+.comms__steamid_col {
+    width: 6%;
+}
+
+.comms__type {
+    width: 5px;
+}
+
+.comms__date {
+    width: 10%;
+}
+
+.comms__name {
+    width: 30%;
+}
+
+.comms__reason {
+    width: 30%;
+}
+
+.comms__button {
+    width: 6px;
+}

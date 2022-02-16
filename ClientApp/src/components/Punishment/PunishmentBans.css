@@ -1,0 +1,57 @@
+.banslist__header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #333;
+}
+
+.banlist__steamid_col
+{
+    width: 6px;
+}
+
+.fa-steam-symbol
+{
+    margin-right: 3px;
+}
+
+.banlist__created_col
+{
+    width: 6px;
+}
+
+.banlist__date
+{
+    width: 15%;
+    text-align: center;
+}
+
+.banlist__name
+{
+    width: 35%;
+}
+
+.banlist__reason
+{
+    width: 35%;
+    text-align: center;
+}
+
+.banlist__button
+{
+    width: 6px;
+}
+
+@media (max-width: 598px)
+{
+    .banlist__steamid_col, .banlist__name, .banlist__created_col, .banlist__reason, .banlist__date {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 898px)
+{
+    .banlist__steamid_col, .banlist__name, .banlist__created_col, .banlist__reason, .banlist__date {
+        font-size: 10px;
+    }
+}
+  

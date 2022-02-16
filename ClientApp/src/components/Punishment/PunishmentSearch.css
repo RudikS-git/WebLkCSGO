@@ -1,0 +1,41 @@
+.punishments-search__container {
+    display: flex;
+    margin-left: auto;
+    flex-wrap: nowrap;
+}
+
+.punishments__search-block {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    height: 25px;
+}
+
+.punishmnets__button-search {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    color: #e6e6e6 !important;
+    border-color: #e6e6e6 !important;
+
+    background: none;
+    border: 0;
+}
+
+.punishmnets__button-search:hover{
+    color: #e6e6e6 !important;
+}
+
+@media (max-width: 898px)
+{
+    .punishments-search__container {
+        margin-left: 0;
+    }
+
+    .punishments__search-block {
+        height: 18px;
+        width: 140px;
+    }
+
+    .punishmnets__button-search {
+        height: 18px;
+    }
+}

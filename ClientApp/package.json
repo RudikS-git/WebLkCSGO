@@ -1,0 +1,62 @@
+{
+  "name": "ClientApp",
+  "version": "0.1.0",
+  "private": true,
+  "start_url": ".",
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@microsoft/signalr": "^5.0.7",
+    "@mui/material": "^5.2.3",
+    "@mui/styled-engine-sc": "^5.1.0",
+    "@reduxjs/toolkit": "^1.6.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.5.3",
+    "react": "^17.0.2",
+    "react-awesome-slider": "^4.1.0",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-notifications": "^1.7.2",
+    "react-preloaders": "^3.0.3",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.8.1",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "styled-component": "^2.8.0",
+    "styled-components": "^5.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "set HTTPS=true&&node ./src/update-build.js&&react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "buildDate": 1643380037174,
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.1.1"
+  }
+}

@@ -1,0 +1,183 @@
+@keyframes animated-gradient{
+    25%{
+        background-position: left bottom;
+    }
+    50%{
+        background-position: right bottom;
+    }
+    75%{
+        background-position: right top;
+    }
+    100%{
+        background-position: left top;
+    }
+}
+
+.account-info {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: auto;
+    height: auto;
+    box-shadow: 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);    
+    margin: 0 auto;
+    border: solid 1px rgb(24, 24, 24);
+    background: radial-gradient(#2f3031, #110e0e);
+}
+
+.account-info__content  {
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 20px;
+    
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.account-info__nick {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+    font-size: large;
+    margin-top: 10px;
+    max-width: 1000px;
+    font-weight: bold;
+}
+
+.account__quit{
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.account__quit::before {
+    margin-left: 8px;
+}
+
+.account-info__btn-exit:hover {
+    color: rgb(158, 45, 45);
+}
+
+.account__dop-info{
+   display: flex;
+   width: 230px;
+   justify-content: center;
+   margin-top: 15px;
+}
+
+.account-info__logout {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-oplata{
+   margin: 0 auto;
+   margin-bottom: 15px;
+   transition: .3s linear;
+}
+
+.btn-oplata:hover{
+   transform: scale(1.1);
+}
+
+.account-info__avatar {
+    display: inline-block;  
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(130deg, #74b9ff, #e66767) ;
+    border-radius: 30px; 
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+.account-info__avatar img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;  
+}
+
+.account-info__adminInfo {
+    margin-bottom: 5px;
+}
+
+.account-info__steamId {
+    margin: 0 10px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+ 
+.account-info__form-exit {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: stretch;;
+    height: 100%;
+}
+
+.account-info__link {
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.account-info__link:hover {
+    color: rgb(0, 107, 247);
+}
+
+.account-info__logout-button:hover{
+    background-color: #ff3547;
+    transform: scale(1.1);
+}
+
+.layout__aside-scrollbar {
+    background-color: rgb(71, 71, 71);
+    z-index: 100;
+    height: 200px;
+} 
+
+.account-info__rank-img {
+    width: 100px;
+    height: 28px;
+}
+
+.account-info__rank_text {
+    font-size: 1.1rem;
+}
+
+.account-info__content-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.account-info__text-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-info__login {
+    margin-top: 150px;
+    background: radial-gradient(#2f3031, #110e0e);
+}
+
+.account-info__btn-exit {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+@media (max-width: 1025px){
+    .account-info__content{
+        border: 1px solid #2d2d2d;
+    }
+}

@@ -1,0 +1,27 @@
+.purchase {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 100%;
+    
+}
+
+.purchase-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.purchase-header__name {
+    color: #959595;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.purchase-privileges {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+}

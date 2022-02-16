@@ -1,0 +1,11 @@
+﻿.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__name {
+    color: #066ffe;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}

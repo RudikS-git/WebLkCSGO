@@ -1,0 +1,210 @@
+.server__flex-container 
+{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+   position: relative;
+}
+
+.server__col
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.server__bar{
+    background-color:#dc3545;
+    border-radius: 5px;
+}
+
+.server__text_block:hover + .server__img 
+{    
+    color: white;
+    opacity: 0.8;
+    /*transform: scale(1.1);*/
+
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    transform: scale(1.3);
+    transition: all ease-in .9s;
+}
+
+
+
+.server__info_nameserver {
+
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 14px;
+
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.server__info_ip {
+
+    cursor: pointer;
+    color: white;
+    margin-top: 5px;
+
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
+    width: 200px;
+
+    margin:0 auto;
+
+    padding-left: 10px;
+
+}
+
+.server__info_players {
+    display: flex;
+    position: relative;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    opacity: 0.7;
+    width: 80%;
+    height: 25px;
+
+    margin:10px auto 5px;
+}
+
+.server__button_connect {
+   position: absolute;
+   top:0;
+   right: 0;
+   opacity: 0.2;
+   height: 35px;
+   width: 35px;
+   border-radius:0 0 0 15px ;
+    background: white ;
+    border: 0 ;
+    padding: 0;
+}
+
+.server__button_connect:hover{
+   opacity: 0.85;
+}
+
+.server__button_copy {
+    position: absolute;
+    bottom:0;
+    right: 0;
+    opacity: 0.2;
+    height: 35px;
+    width: 35px;
+    border-radius:15px 0 0 0 ;
+    background: white ;
+    border: 0 ;
+    padding: 0;
+}
+
+.server__button_online {
+    position: absolute;
+    bottom:0;
+    right: 0;
+    opacity: 1;
+    height: 25px;
+    width: 40px;
+    background: #979797;
+    border: 0 ;
+    padding: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.server__button_online:hover {
+    background: #b6b6b6;
+}
+
+.server__button_copy:hover{
+   opacity: 0.85;
+}
+
+.server__text_block
+{
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden; 
+
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+    z-index: 6;
+    
+}
+
+.server__text 
+{
+    height: 0%;
+    z-index: 6;
+    
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.server__progress-bar-text {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.server__img 
+{   border-radius: 10px;
+    width: 100%;
+    height: 170px;
+    position: relative;
+    display: block; 
+    top:0;
+    left:0; 
+    background-color: rgba(54, 50, 51, 0.5);
+    transition: all 1s ease-out;
+    opacity: 0.4;
+}
+
+@media (max-width:426px){
+   .server__button_connect{
+      display: none;
+   }
+
+   .server__flex-container{
+      width: 92%;
+      margin: 0 auto;
+   }
+
+   .server__button_copy{
+      display: none;
+   }
+}

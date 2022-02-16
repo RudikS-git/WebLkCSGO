@@ -1,0 +1,57 @@
+.login__btn {
+    background-color: #373737;
+    border: 1px solid #373737;
+    border-radius: 8px;
+    padding: 5px;
+
+    transition: all 1s ease-out;
+}
+
+.login__button {
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.login__btn:hover {
+    transform: scale(1.1);
+}
+
+.login__text {
+    color: white;
+    font-size: 0.9em;
+    margin-left: 2px;
+}
+
+.login__icon-steam {
+    color: white;
+}
+
+.account-info__login {
+   display: none;
+}
+
+@media (max-width: 1025px){
+   .login__button {
+      font-size: 25px;
+      z-index: 999;
+      position: relative;
+      top: 50%;
+      left: 10%;
+   }
+
+   .account-info__login {
+        display: block;
+    }
+
+    .login__text{
+        display: none;
+    }
+
+    .login__icon-steam {
+    position: fixed;
+    right: 25px;
+    top:35px;
+    }
+}

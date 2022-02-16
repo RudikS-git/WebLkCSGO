@@ -1,0 +1,150 @@
+.privilege{
+   position: relative;
+   cursor: pointer;
+   height: 220px;
+   margin-bottom: 100px;
+   transition: 2s;
+}
+
+.privilege .privilege__face{
+   width: 200px;
+   
+   transition: 0.8s;
+}
+
+.privilege__face_face1{
+   height: 240px;
+   position: relative;
+   background: #333;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1;
+
+}
+
+.privilege:hover .privilege__face_face1{
+   background: #5c57a9;
+   transform: translateY(0);
+}
+
+.privilege__face_face2{
+   
+   position: absolute;
+   background: #fff;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   box-sizing: border-box;
+   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+   transform: translateY(-240px); 
+}
+
+.privilege:hover .privilege__face_face2{
+
+   display: block;
+   transform: translateY(0);
+   height: auto;
+   z-index: 5;
+}
+
+.privilege:hover {
+
+   height: auto;
+}
+
+.privilege:hover .privilege__name{
+   color: white;
+}
+
+.privilege__content_main {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-self: center;
+}
+
+.privilege__content_additional {
+
+   display: none;
+   flex-direction: column;
+   justify-content: center;
+   align-self: center;
+}
+
+.privilege:hover .privilege__content_additional {
+   display: flex;
+}
+
+.privilege__name{
+   margin: auto;
+   max-width: 200px;
+   font-size: 14px;
+   transition: 0.8;
+}
+
+.privilege-img{
+   height: 200px;
+   width: 200px;
+}
+
+.privilege__features {
+   color:rgba(0, 0, 0, 0.8);
+   padding: 0;
+}
+
+.privilege__btn-buy {
+   border-radius: 5px;
+}
+
+.privilege__features > li {
+   list-style-type: none;
+}
+
+.privilege__features > li > i {
+   margin-right: 3px;
+   font-size: 15px;
+}
+
+.privilege_icon {
+   color: rgb(29, 170, 29);
+}
+
+.privilege__owner-block {
+   width: 200px;
+   position: absolute;
+   z-index: 2;
+   background:rgba(46, 46, 46, 0.8);
+   text-align: center;
+}
+
+.privilege__owner-text {
+   color:rgb(180, 180, 180);
+   margin-right: 3px;
+}
+
+.privilege__owner-icon {
+   color: rgb(9, 189, 9);
+}
+
+.privilege__text-price {
+   text-align: center;
+}
+
+.privilege:hover .privilege__text-price {
+   color: white;
+}
+
+.privilege__text_old-price {
+   text-decoration: line-through;
+}
+
+.privilege__text_old-price::before {
+
+}
+
+.privilege__text_new-price {
+   margin-left: 10px;
+   font-size: 1.2rem;
+}
